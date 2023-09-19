@@ -1,0 +1,13 @@
+.menu-title-container {
+}
+
+.menu-title-container > h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.menu-title-container > hr {
+  margin-top: 20px;
+}
