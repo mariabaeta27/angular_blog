@@ -1,16 +1,13 @@
 .small-card-container-content {
   display: flex;
   flex-direction: row;
-  width: 630px;
+  width: 300px;
   height: 110px;
 }
 
-.small-card-photo {
-}
-
 .small-card-photo > img {
-  min-width: 200px;
-  width: 200px;
+  min-width: 100px;
+  width: 100px;
   height: 100%;
 }
 
@@ -27,4 +24,12 @@
 
 .small-card-container > hr {
   margin: 5px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .small-card-photo > img {
+    min-width: 150px;
+    width: 150px;
+    height: 100%;
+  }
 }

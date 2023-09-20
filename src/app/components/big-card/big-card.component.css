@@ -3,8 +3,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 450px;
-  width: 400px;
+  height: 350px;
+  width: 300px;
   margin: 0px 10px;
 }
 
@@ -14,7 +14,7 @@
 .big-card-photo > img {
   height: 200px;
   width: 100%;
-  min-width: 400px;
+  min-width: 300px;
 }
 
 .big-card-title {
@@ -32,4 +32,24 @@
 
 .big-card-description > p > a {
   color: grey;
+}
+
+@media screen and (min-width: 768px) {
+  .big-card-photo > img {
+    height: 200px;
+    width: 300px;
+    min-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  big-card-container {
+    height: 450px;
+    width: 500px;
+  }
+  .big-card-photo > img {
+    height: 200px;
+    width: 350px;
+    min-width: 100%;
+  }
 }

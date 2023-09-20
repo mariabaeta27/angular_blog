@@ -1,12 +1,38 @@
 .home-page-container_articles {
-  display: flex;
-  flex-direction: row;
+  display: grid;
   justify-content: center;
-  margin-top: 30px;
+  justify-items: center;
+  grid-template-columns: 2fr;
+  margin-top: 1rem;
 }
 
 .home-page-header {
   display: flex;
   justify-content: center;
   margin-top: 15px;
+}
+
+.home-page-articles_main {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .home-page-container_articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  hr {
+    display: none;
+  }
+  .home-page-articles_main {
+    margin-right: 2px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home-page-articles_main {
+    margin-right: 50px;
+  }
 }
