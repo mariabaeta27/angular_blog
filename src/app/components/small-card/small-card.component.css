@@ -19,7 +19,7 @@
 }
 
 .small-card-title > h1 > a {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .small-card-container > hr {
@@ -28,8 +28,8 @@
 
 @media screen and (min-width: 1024px) {
   .small-card-photo > img {
-    min-width: 150px;
-    width: 150px;
+    min-width: 180px;
+    width: 180px;
     height: 100%;
   }
 }
