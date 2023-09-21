@@ -1,0 +1,47 @@
+.content-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  height: 100vh;
+  width: 100%;
+}
+
+.content-goBack {
+  font-size: 10px;
+  font-weight: 900;
+  padding: 15px;
+  text-align: start;
+}
+
+.content_cover > img {
+  border: 5px solid grey;
+  border-radius: 5px;
+  height: 200px;
+  margin: 10px;
+  min-width: 300px;
+  width: 300px;
+}
+
+.content_description {
+  margin: 15px 0;
+}
+
+.content_description > p {
+  color: grey;
+  padding: 5px;
+}
+
+.content_title > h1 {
+  font-size: 20px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .content_cover > img {
+    height: 300px;
+    margin: 10px;
+    min-width: 500px;
+    width: 500px;
+  }
+}
